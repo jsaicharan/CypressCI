@@ -5,5 +5,4 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          yarn: true
-          working_directory: cypress
+          record: true
