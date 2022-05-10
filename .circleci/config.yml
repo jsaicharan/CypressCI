@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: cimg/<language>:<version TAG>
+      - image: cimg/node:17.1.0-browsers
         auth:
           username: saicharanj
           password: Saicharan@501  # context / project UI env-var reference
